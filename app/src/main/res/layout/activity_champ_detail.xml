@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChampDetail">
+
+    <ImageView
+        android:id="@+id/img_champ"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/txtChampName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_champ"
+        android:padding="10dp"
+        android:text="Champ Name"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/txtChampRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChampName"
+        android:padding="10dp"
+        android:text="Champ Role"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtChampDiff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChampRole"
+        android:padding="10dp"
+        android:text="Difficulty"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtChampStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChampDiff"
+        android:padding="10dp"
+        android:text="Champ Story"
+        android:textSize="15dp" />
+</RelativeLayout>
